@@ -292,9 +292,6 @@ Business-focused insights
 
 
 
-                 ▼
-        Fleet Intelligence
-
 
 
 
