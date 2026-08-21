@@ -145,21 +145,21 @@ It includes:
 ---
 
 # 🗂️ Project Structure
-[22-08-2026 00:13] Abrar Ahmad: `text
+
 VexarDrive-Fleet-Analytics/
 │
-├── 01_Raw_Data/
-│   ├── drivers.csv
-│   ├── vehicles.csv
-│   ├── trips.csv
-│   └── telemetry.csv
+├── 01 Images/
+│   ├── driver1.png
+│   ├── driver2.png
+│   ├── vehicle1.png
+│   └── vehicle2.png
 │
-├── 02_Python/
-│   ├── 01_Data_Cleaning.ipynb
-│   ├── 02_Trip_Feature_Engineering.ipynb
-│   ├── 03_Vehicle_Health_Features.ipynb
-│   ├── 04_Driver_Risk_Score.ipynb
-│   └── 05_Vehicle_Health_Score.ipynb
+├── 02_Python Notebook/
+│   ├──feature_selection.ipynb
+    ├──python_preprocessing.ipynb
+    
+
+│   
 │
 ├── 03_Processed_Data/
 │   ├── drivers_clean.csv
@@ -182,28 +182,116 @@ VexarDrive-Fleet-Analytics/
 
 ---
 
-🔄 Project Workflow
+📌 Conclusion
 
-Raw Fleet Data
-      │
-      ▼
-Data Cleaning & Validation
-      │
-      ▼
+VexarDrive Fleet Analytics transforms raw fleet telemetry into a practical fleet-intelligence solution.
+
+The project provides two complementary perspectives:
+
+Driver perspective
+
+> Who is driving unsafely and why?
+
+
+
+Vehicle perspective
+
+> Which vehicles show unusual sensor behaviour and may require maintenance review?
+
+
+
+By combining Python-based feature engineering, percentile-based scoring, anomaly detection and Power BI visualization, the project provides an interpretable framework for fleet safety and maintenance decision-making.
+
+
+---
+
+👨‍💻 Author
+
+Abrar Ahmad
+
+Data Analyst / Data Science Enthusiast
+
+Core Skills Demonstrated
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Data Cleaning
+
 Feature Engineering
-      │
-      ├──────────────────────┐
-      ▼                      ▼
-Driver Behaviour        Vehicle Sensor
-Features                Features
-      │                      │
-      ▼                      ▼
-Driver Risk Score       Vehicle Health Score
-      │                      │
-      └──────────┬───────────┘
-                 ▼
-            Power BI
-                 │
+
+Statistical Analysis
+
+Anomaly Detection
+
+Risk Scoring
+
+Power BI
+
+Dashboard Development
+
+Business Intelligence
+
+Data Storytelling
+
+
+
+---
+
+⭐ Project Highlights
+
+End-to-end analytics workflow
+
+30 drivers analyzed
+
+30 vehicles analyzed
+
+Driver risk scoring
+
+Vehicle health scoring
+
+Sensor anomaly detection
+
+Fleet-relative percentile analysis
+
+Maintenance prioritization
+
+Interactive Power BI dashboards
+
+Driver and vehicle drill-down architecture
+
+Explainable scoring methodology
+
+Business-focused insights
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                  ▼
         Fleet Intelligence
 
